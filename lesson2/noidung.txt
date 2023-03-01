@@ -1,0 +1,8 @@
+CSS LÀ GÌ ?để làm fig
+viết code CSS ở đâu
+Cú pháp
+2 ý cơ bản trong CSS
+Độ ưu tiên
+
+2. 
+External file.CSS

@@ -1,0 +1,81 @@
+/* Viết code css trong file này */
+/* link file này vào file html */
+
+/* chọn tất cả thẻ h1 trên trang web */
+h1{
+    color: red;
+}
+
+
+p{
+    color:green;
+}
+
+
+/* chọn thẻ nào có id="special-heading" */
+#special-heading{
+    color: burlywood;
+}
+
+
+.text-blue{
+    color: aqua;
+}
+
+
+/* thử tốc độ ưu tiên của selector */
+
+/* độ ưu tiên của div là (0,0,1) ưu tiên 3*/
+/* độ ưu tiên của .text (0,1,0) ưu tiên 2*/
+/* độ ưu tiên của # (1,0,0) ưu tiên 1 */
+
+div{
+    color:blueviolet;
+}
+
+.text-brown{
+    color: brown !important;
+}
+
+#my-div{
+    color:pink
+}
+
+
+
+/* (0,0,0) */
+*{
+    color:chocolate
+}
+
+/* Mức độ ưu tiên css selector
+1.chỗ nào có !important
+2.inline style ( mã nguồn code chính )
+3.độ ưu tiên của selector
+4.internal > external
+ */
+
+
+ /* những thuộc tính - giá trị => định dạng text */
+ #test-text{
+    font-size: 40px; /* cỡ chữ */
+    font-style: italic; /* kiểu chữ */
+    text-decoration: line-through; /* trang trí cho chữ */
+    font-family: 'Arial';
+    text-transform: uppercase; /* biến đổi chữ */
+ }
+
+
+
+ /* những thuộc tính - giá trị => định dạng khối nội dung ( Box model) */
+ #my-box{
+    background-color: pink;
+    width: 370px; /* chiếm 1/2 màn hình */
+    height: 170px;
+
+    border: 10px solid green; /* độ rộng kiểu đường viền và màu sắc */
+    border-radius: 10px; /* làm trơn góc */
+
+    padding: 20px ; /* khoảng cách đoạn văn với lề */
+    box-sizing: border-box;
+ }

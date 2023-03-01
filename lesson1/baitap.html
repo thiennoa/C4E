@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!-- 1. sử dụng thẻ ul để tạo danh sách những món ăn bạn yêu thích -->
+    <ul>
+        <li>cơm</li>
+        <li>thịt gà</li>
+        <li>thịt bò</li>
+        <li>cá</li>
+        <li>bún bò</li>
+        <li>bún chả</li>
+        <li>phở</li>
+        <li>rau</li>
+        <li>hoa quả</li>
+    </ul>
+    
+    
+    
+    <!-- 2. sử dụng thẻ table ,tr , td để tạo 1 danh sách người dùng của 1 ứng dụng
+        Mỗi người có thông tin:
+          ID
+          Họ và tên 
+          Email 
+          Tài khoản
+          Trạng thái (đang hoạt động hay dừng hoạt động) -->
+    <table border="1" width="100%">
+        <tr>
+            <td>ID</td>
+            <td>Họ và tên</td>
+            <td>Email</td>
+            <td>Tài khoản</td>
+            <td>Trạng thái</td>
+        </tr>
+    </table>
+    
+    <!-- Hãy xây dựng form đăng tin tuyển dụng gồm các trường thông tin:
+            Công ty tuyển dụng
+            Tiêu đề tuyển dụng
+            Ngày bắt đầu , ngày kết thúc
+            Mô tả ngắn
+            1 bảng gồm 3 hàng 3 cột , mỗi cột có 1 ô input để nhập:
+               vị trí ứng tuyển
+               số năm kinh nghiệm
+               số lượng
+           Button "Hoàn tất"-->
+    <form>
+        <p>
+            <b>Công ty tuyển dụng:</b>
+            <input type="text">
+        </p>
+        <p>
+            <b>Tiêu đề tuyển dụng:</b>
+            <input type="text">
+        </p>
+        <p>
+            <b>Ngày bắt đầu:</b>
+            <input type="number">
+        </p>
+        <p>
+            <b>Ngày kết thúc:</b>
+            <input type="number">
+        </p>
+        <p>
+            <b>Mô tả ngắn:</b>
+            <textarea cols="10" rows="10"></textarea>
+        </p>
+        <table border="2" width="100%">
+            <tr>
+                <td>vị trí ứng tuyển</td>
+                <td>số năm kinh nghiệm</td>
+                <td>số lượng</td>
+            </tr>
+            <tr>
+                <td><input type="text" width="70%"></td>
+                <td><input type="text" width="70%" ></td>
+                <td><input type="text" width="70%" ></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+         
+    
+        </table>
+        
+        <p>
+        </p>
+        <p> 
+        </p>
+        
+        <Button>Hoàn tất</Button>
+    </form>
+</body>
+</html>
