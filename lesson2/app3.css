@@ -1,0 +1,37 @@
+.like{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.tym{
+    background-color: red;
+    color: aliceblue;
+}
+
+.view{
+    background-color: gray;
+    color: aliceblue;
+}
+
+#kieudang{
+ width: 30%;
+ min-height: min-content;
+ border-collapse: collapse;
+ 
+}
+
+#bang3{
+    border: 1px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#ten-account{
+    font-size: 25px;
+    font-style: inherit;
+}
+
+#endline{
+    background-color: blue;
+    color: aliceblue;
+}

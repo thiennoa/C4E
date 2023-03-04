@@ -1,0 +1,76 @@
+<!-- 
+    1.tạo 5 đoạn văn trên trang web , nội dung mỗi đoạn văn tùy ý . dử dụng css để
+    -định dạng cho tất cả đoạn văn có cỡ chữ 30px
+    -định dạng cho đoạn văn số 2 mẫu chữ xanh lục và chữ nghiêng
+    -định dạng cho đoạn văn số 1,3,5 mẫu chữ đỏ và biến đổi chữ ( viết hoa tất cả các chữ cái)
+    
+    2. Tạo 1 bảng gồm 4 cột: ID , Họ và tên , Gioi tính , ngày sinh
+    Bảng có 1 dòng tiêu đè và 4 dòng dữ liệu ( dữ liệu điền tùy ý)
+    Sử dụng CSS để:
+    -định dạng cho bảng:chiều rộng:500px ; đường viền ( đường viền tùy ý)
+    -định dạng cho tất cả các dòng trong bảng: đường viền dưới(1px đặc màu xám  )
+    -định dạng cho dòng tiêu đề : màu nền xanh lam , chữ trắng , chữ đậm 
+    -định dạng chop trong dữ liệu số 2 và 5 màu nền xám
+    -định dạng cho cột "Họ và tên " chiều rộng chiếm 40% cửa hàng
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./app2.css"> 
+   
+ </head>
+ <body>
+    <div style="font-size: 30px;">
+        <p class="bai1">đoạn văn 1</p>
+        <p style="color:blue; font-style: italic;">đoạn văn 2</p>
+        <p class="bai1">đoạn văn 3</p>
+        <p>đoạn văn 4</p>
+        <p class="bai1">đoạn văn 5</p>
+    </div>
+
+   
+    <table border="1" width="500px" >
+        <tr class="duongvienduoi">
+            <th colspan="4">Tiêu đề</th>
+        </tr>
+        <tr class="duongvienduoi">
+            <th>ID</th>
+            <th>Họ và tên</th>
+            <th>Giới tính</th>
+            <th>Ngày sinh</th>         
+        </tr> 
+        <tr class="duongvienduoi">
+            <td>1</td>
+            <td>Nguyễn Văn A</td>
+            <td>Nam</td>
+            <td>22/01/2000</td>         
+        </tr>
+        <tr class="duongvienduoi">
+            <td>2</td>
+            <td>Nguyễn Công B</td>
+            <td>Nam</td>
+            <td>22/01/2001</td>         
+        </tr>  
+        <tr class="duongvienduoi">
+            <td>3</td>
+            <td>Vũ Văn A</td>
+            <td>Nam</td>
+            <td>22/01/2003</td>         
+        </tr>     
+        <tr class="duongvienduoi">
+            <td>4</td>
+            <td>fsf</td>
+            <td>Nữ</td>
+            <td>22/01/2001</td>         
+        </tr>
+      
+
+
+ </body>
+ </html>
