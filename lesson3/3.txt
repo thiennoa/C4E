@@ -1,0 +1,46 @@
+Box Model and Positio
+1.Thành phần của box Model
+margin ( ko ảnh hưởng đến kích thước của khối) > border > padding > content
+
+Border:
+.my-block{
+    border: 10px solid black;
+}
+
+
+padding:
+.my-padding{
+    padding: 10px 20px 30px 40px; // top right bottom left
+}
+
+
+2. Kích thước thật của box model
+
+.my-block{
+    box-sizing: content-box hoặc border-box
+    width: 300px
+    height
+    border
+    padding
+}
+
+
+Tip: cứ xài hết border-box để cjirnh kích thước cho dễ
+*{
+    padding:0;
+    margin:0;
+    daa
+}
+
+3.Position là thuộc tính để xác định vị trí của phần tử html
+có 4 kiểu chủ yếu
+
+kiểu 1: static (mặc định)
+kiểu 2: relative ( căn chỉnh với vị trí mặc định)
+kiểu 3: absolute ( thường áp dụng cho )
+kiểu 4: fixed ( cho phép căn chỉnh phần tử neo đậu tại ...)
+kiểu 5: sticky
+
+
+
+

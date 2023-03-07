@@ -1,0 +1,141 @@
+.box{
+    width:  1000px;
+    height: 1000px;
+    border: 1px solid blueviolet;
+    
+
+}
+
+
+#box1{
+    width: 100px;
+    position: relative;
+    top: 300px;
+    left: 400px;
+    border: 100px;
+    background-color: green;
+    text-align:center;
+    color: aquamarine;    
+    padding: 40px;
+    font-size: 25px;
+}
+
+
+#box2{
+    width: 100px;
+    position: relative;
+    top: 320px;
+    left: 400px;
+    border: 100px;
+    background-color: brown;
+    text-align:center;
+    color: aliceblue;    
+    padding: 40px;
+    font-size: 25px;
+}
+
+#box3{
+    width: 100px;
+    position: relative;
+    top: 150px;
+    left: 220px;
+    border: 100px;
+    background-color: palevioletred;
+    text-align:center;
+    color: blue;    
+    padding: 30px;
+    font-size: 25px;
+}
+
+#box4{
+    width: 100px;
+    position: absolute;
+    top: 260px;
+    left: 230px;
+    border: 100px;
+    background-color: purple;
+    text-align:center;
+    color: goldenrod;    
+    padding: 30px;
+    font-size: 25px;
+}
+
+#box5{
+    width: 100px;
+    position: absolute;
+    top: 120px;
+    left: 420px;
+    border: 100px;
+    background-color:violet;
+    text-align:center;
+    color:darkslategrey;    
+    padding: 30px;
+    font-size: 25px;
+
+}
+
+#box6{
+    width: 100px;
+    position: absolute;
+    top: 260px;
+    left: 600px;
+    border: 100px;
+    background-color:khaki;
+    text-align:center;
+    color:cornflowerblue;    
+    padding: 30px;
+    font-size: 25px;
+
+}
+
+#box7{
+    width: 100px;
+    position: absolute;
+    top: 410px;
+    left: 600px;
+    border: 100px;
+    background-color:aliceblue;
+    text-align:center;
+    color:lightslategrey;    
+    padding: 30px;
+    font-size: 25px;
+
+}
+
+
+/* bài2 */
+
+#lyrics{
+    width: 1000px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    background-color: green;
+    text-align:center;
+    color: aquamarine;    
+    padding: 40px;
+    font-size: 25px;
+    border: 1px solid chartreuse;
+
+}
+
+.form-1{
+    position: relative;
+    left: 200px ;
+    top: 120px;
+}
+
+#hehe{
+    display: none;
+    width: 100px;
+    border: 1px solid gray;
+    background-color: pink;
+}
+
+.form-1:hover #hehe{
+    display:block;
+}
+
+
+

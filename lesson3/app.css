@@ -1,0 +1,174 @@
+body{
+    margin: 0; 
+}
+/*nội dung dí sát đường viền*/
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 10px solid chocolate;
+    background-color: darkcyan;
+    margin: 10px 0px 10px 0px; /* hoặc margin: 10px 0px ;*/
+    
+    padding: 20px 10px 20px 10px;
+
+    z-index: 0;
+}
+
+#box-1{
+    position: relative;
+    width: auto;
+    height: 1000px;
+    margin-top: 45px;
+}
+
+/* phaafn tuwr treen trang Web cos 3 kiểu:
+      Block (div,p,section,headings):chiều rộng mặc định chiếm 100% của phần tử chứa
+      inline-block (img):chiều rộng mặc định phụ thuộc vào nội dung
+         => block , inline-block=> điều chỉnh được kích thước width,height
+      inline (b,i,span,...): chiều rộng mặc định phụ thuộc vào nội dung,không chỉnh được kích thước */
+
+#box-2{
+    position: relative;
+    background-color: brown;
+    /* top: 50px;
+    left: 100px; */
+    
+}
+
+#box-3{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+    z-index: 10;
+    width: 50px;
+    height: 30px;
+    background-color: orange;
+    margin:0;
+
+}
+
+
+.header{
+    /* position: fixed; */
+    top: 0px;
+    left: 0px;
+    z-index: 20;
+
+
+    width: auto;
+    height: 40px;
+    background-color: darkslategrey;
+    color: white;
+    width: 100%;
+    
+}
+
+
+
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    
+    
+    height: 40px;
+    background-color: khaki;
+    color: red;
+    z-index: 22;
+    width: 100%;
+
+}
+
+
+.menu{
+    position: sticky;
+    height: 50px;
+    background-color: yellow;
+    top: 0px;
+    z-index: 22;
+}
+
+
+/* 
+thực hành */
+
+.title{
+    font-size: 40px;
+    background-color:darkkhaki;
+    text-align: center;
+    padding:15px 0px;
+    border: 1px solid darkkhaki;
+
+    margin-bottom: 15px ;
+
+}
+
+.text{
+    background-color: salmon;
+    border: 1px solid salmon;
+    padding: 15px;
+    margin-bottom: 15px ;
+}
+
+.bubit{
+    padding: 8px 12px;
+    background-color: dodgerblue ;
+    border: 1px solid blue;
+    border-radius: 3px;
+    color: white;
+}
+
+
+/* #app{
+    width: 700px;
+    background-color: aquamarine;
+    padding: 20px;
+    box-sizing: border-box;
+    margin:0 auto;
+} */
+
+
+.boxmot{
+
+    background-color:darkkhaki;
+    text-align: center;
+    padding:15px 0px;
+    border: 1px solid darkkhaki;
+    
+    margin-bottom: 10px ;
+}
+
+.boxhai{
+
+    background-color:darkkhaki;
+    text-align: center;
+    padding:15px 0px;
+    border: 1px solid darkkhaki;
+    
+    margin-bottom: 10px ;
+}
+
+.boxba{
+
+    background-color:darkkhaki;
+    text-align: center;
+    padding:15px 0px;
+    border: 1px solid darkkhaki;
+    
+    margin-bottom: 10px ;
+}
+
+.boxbon{
+
+    background-color:darkkhaki;
+    text-align: center;
+    padding:15px 0px;
+    border: 1px solid darkkhaki;
+    
+    margin-bottom: 10px ;
+}
+
+
