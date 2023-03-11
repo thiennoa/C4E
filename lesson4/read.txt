@@ -1,0 +1,55 @@
+Layout la gi?
+inline va Block la gi
+Flex?
+Grid?
+
+
+1.Layout
+
+Sap xep cac khoi noi dung tren trang web sao cho phu hop
+Trang web can co bo cuc de nhin , de hieu , de thao tac
+Dep xau la tuy tham my cua tung nguoi
+Thuoc tinh : display
+
+
+2.inline va Block va inline-block
+
+dung voi cac khoi chua noi dung
+
+-display:inline
+noi dung to the nao thi khoi to nhu the
+cac phan tu inline tiep theo se cung dong
+khong chinh duoc Width va height
+
+
+-display:inline-block
+
+giong inline nhung chinh duoc width va height
+
+-display:block
+moi phan tu block se nam tren 1 dong voi bat ki gia tri width
+chinh duoc width height
+
+
+Flex?
+thay doi bo cuc cac phan tu nam ben trong no
+
+-Cac thuoc tinh
+Flex-direction: row/column; ( truc chinh)
+justify-content:   
+
+
+align-items (stretch/center/flex-start/flex-end/)
+
+
+flex-wrap
+
+
+dung flex khi nao ? 
+Khi can chinh 
+
+
+
+
+Grid?
+can chinh phan tu ben trong theo 2 chieu
