@@ -1,0 +1,118 @@
+@media screen {
+    /*  code css o day */
+
+
+    /* code nay chi hien thi tren man ko in dc */
+    body{
+        background-color: orange;
+        color: red;
+        margin: 0px;
+    }
+}
+
+
+@media print{
+    body{
+        background-color: yellow;
+        color: white;
+        margin: 0px;
+    }
+}
+
+
+/* 2 */
+
+body{
+    margin: 0px;
+}
+
+.header{
+    position: sticky;
+    width: 100px;
+    height: 80px;
+    background-color: orange;
+    color: darkgreen;
+}
+
+.container{
+    display: flex;
+    height: 800px;
+    align-items: stretch;
+}
+
+.aside-left , .aside-right{
+    background-color: brown;
+    color: white;
+    width: 25%;
+}
+
+.content{
+    background-color: hotpink;
+    color: red;
+    width: 100%;  /*dung trong dt */
+}
+
+
+.header .toggle-aside-left-btn{
+    display: none;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border: 1px solid darkcyan;
+
+}
+
+
+/* an trai phai tren dien thoai s20 ultra */
+@media screen and (max-width: 412px){
+    .aside-left,.aside-right{
+        display: none;
+    }
+    .content{
+        width: 100%;
+    }
+    /* style phan tu con trong class */
+.header .toggle-aside-left-btn{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border: 1px solid darkcyan;
+
+}
+
+}
+
+
+/* min-width
+@media screen and (min-width:0px) and (max-width:1023){
+    .aside-left,.aside-right{
+        display: none;
+    }
+    .content{
+        width: 100%;
+    }
+} */
+
+
+/* don vi rem trong css */
+
+html{
+    font-size: 30px;
+}
+body{
+    font-size: 15px;
+
+}
+
+@media screen and (max-width:576px){
+    body{
+        font-size: 10px;
+    }
+}
+
+/* em co chu theo cha body , rem co chu theo cha html */
+.my-paragraph{
+    font-size: 2em;   
+}
+
