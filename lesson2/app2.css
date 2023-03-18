@@ -5,7 +5,27 @@
 
 
  .duongvienduoi{
-    border: 1px solid gray;
+    border: 1px solid red;
     
     
+ }
+
+ #bang{
+   
+   width: 500px;
+   border-bottom: 20px red;
+   border-collapse: collapse;
+ }
+ #tieude{
+   background-color: blue;
+   font-style:italic;
+   color: aliceblue;
+   height: 50px;
+   width: max-content;
+ }
+
+ #duongvienduoi1{
+   padding: 0px;
+   height: 30px;
+
  }
