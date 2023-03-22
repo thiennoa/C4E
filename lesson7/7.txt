@@ -1,0 +1,75 @@
+Block of code
+Câu điều kiện
+Vòng lặp
+
+
+1. khối lệnh
+ - tập hợp các lệnh thực thi cùng nhau
+ - đặt trong {}
+
+ - phạm vi của biến
+ + biến cục bộ với biến toàn cục
+ + biến trong khối sẽ không tồn tại khi ở ngoài khối
+ +trong khối biến trong khối sẽ được ưu tiên
+
+
+2. Câu điều kiện
+------------------
+ if(condition){
+    //block code
+ }
+ condition // true or false
+
+-----------
+ if(condition){
+    block code
+ }else{
+    block code
+ }
+
+-------------
+ if(condition1){
+    block code 1
+ }else if (condition2){
+    block code 2
+ }else if (condition...){
+    block code ...
+ }
+
+
+3. Vòng lặp
+ for(...){
+    block code
+ }
+
+-----------
+ while(...){
+    block code
+ }
+
+
+----------
+ do{
+    block code
+ }while(...)
+
+
+
+
+------------------
+for(...){}
+ lặp với số lần biết trước
+ thường có 1 biến đếm
+ thường dùng trong duyệt mảng ... ; sắp xếp đơn giản : in ra một dãy có quy luật ;
+ for(let count=1;count<=1000; count++){
+    console.log("anh yêu em một nghìn lần")
+ } 
+ 
+------------------
+ while(...){}
+
+
+do{...}while(...)
+ giống while
+ thực hiện khối lệnh do ít nhất 1 lần
+ thường dùng trong : nhập cho khi nào đến ok
