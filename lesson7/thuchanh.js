@@ -205,7 +205,7 @@ let n = Number(prompt("Nhập chiều rộng"))
     
     for (let i = 1; i <= n; i++) {
      for(let j=1;j<=m;j++){
-      console.log("*")
+      console.log
      } 
     }
     

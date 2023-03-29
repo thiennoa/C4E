@@ -99,24 +99,22 @@
 
 // ý 5 bài 1
 // Lọc ra các số nguyên tố trong mảng.
-// let myArray= [1,2,-4,-7,-3,4,5,6,7,8,9,10,2,5,7,21,23]
-// let soNguyenTo=[]
-// for(let i=0;i<myArray.length;i++){
-//     if (myArray[i]==2){       
-//         soNguyenTo.push(myArray[i])
-//     }
-//     else{
-//          for(let j=2; j<=Math.sqrt(myArray[i]);j++)        
-//             if(myArray[i]%j !== 0 && myArray[i]>0){
-//                 soNguyenTo.push(myArray[i])
-//             }
-//             // soNguyenTo.push(myArray[i])    
-//         }       
-//     }
+let myArray= [1,2,-4,-7,-3,4,5,6,7,8,9,10,2,5,7,21,23]
+let soNguyenTo=[]
+for(let i=0;i<myArray.length;i++){
+    if (myArray[i]==2){       
+        soNguyenTo.push(myArray[i])
+    }
+    else{
+         for(let j=2; j<=Math.sqrt(myArray[i]);j++)        
+            if(myArray[i]%j !== 0 && myArray[i]>0){
+                soNguyenTo.push(myArray[i])
+            }
+            // soNguyenTo.push(myArray[i])    
+        }       
+    }
 
-
-
-// console.log(soNguyenTo)
+console.log(soNguyenTo)
 
 // // Hàm để tìm các số nguyên tố trong một mảng
 // function findPrimes(arr) {
@@ -264,15 +262,15 @@
 // console.log(newS);
 
 
-// ý 4 bài 2
-// Tạo ra 1 chuỗi là sự kết hợp của các phần tử trong s. Mỗi phần tử cách nhau bởi dấu ‘-’.
-let s= ["thien", "handsome" ,"haveGirlfriend"]
-let new_s=s[0]
-for(let i=1;i<s.length;i++){
-    new_s= new_s+ "-" + s[i]  // hoặc dùng const new_s = s.join('-');
+// // ý 4 bài 2
+// // Tạo ra 1 chuỗi là sự kết hợp của các phần tử trong s. Mỗi phần tử cách nhau bởi dấu ‘-’.
+// let s= ["thien", "handsome" ,"haveGirlfriend"]
+// let new_s=s[0]
+// for(let i=1;i<s.length;i++){
+//     new_s= new_s+ "-" + s[i]  // hoặc dùng const new_s = s.join('-');
     
-}
-console.log(new_s)
+// }
+// console.log(new_s)
 
   
 
